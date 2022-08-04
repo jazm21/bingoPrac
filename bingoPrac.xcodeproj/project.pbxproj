@@ -17,6 +17,14 @@
 		BDCA09912899CDB300805932 /* bingoPracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA09902899CDB300805932 /* bingoPracTests.swift */; };
 		BDCA099B2899CDB300805932 /* bingoPracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA099A2899CDB300805932 /* bingoPracUITests.swift */; };
 		BDCA099D2899CDB300805932 /* bingoPracUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA099C2899CDB300805932 /* bingoPracUITestsLaunchTests.swift */; };
+		BDCA09AA2899E38100805932 /* ViewControllerMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA09A92899E38100805932 /* ViewControllerMovie.swift */; };
+		BDCA09AC2899EB9B00805932 /* ViewControllerThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA09AB2899EB9B00805932 /* ViewControllerThing.swift */; };
+		BDF884D4289AEC5C006F99B4 /* ViewControllerMeditate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF884D3289AEC5C006F99B4 /* ViewControllerMeditate.swift */; };
+		BDF884D6289AF1AF006F99B4 /* ViewControllerFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF884D5289AF1AF006F99B4 /* ViewControllerFriends.swift */; };
+		BDF884D8289AFB88006F99B4 /* ViewControllerTreat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF884D7289AFB88006F99B4 /* ViewControllerTreat.swift */; };
+		BDF884DA289B14C4006F99B4 /* ViewControllerMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF884D9289B14C4006F99B4 /* ViewControllerMusic.swift */; };
+		BDF884DC289B1920006F99B4 /* ViewControllerWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF884DB289B1920006F99B4 /* ViewControllerWrite.swift */; };
+		BDF884DE289B1EF6006F99B4 /* ViewControllerPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF884DD289B1EF6006F99B4 /* ViewControllerPuzzle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		BDCA09962899CDB300805932 /* bingoPracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bingoPracUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCA099A2899CDB300805932 /* bingoPracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bingoPracUITests.swift; sourceTree = "<group>"; };
 		BDCA099C2899CDB300805932 /* bingoPracUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bingoPracUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDCA09A92899E38100805932 /* ViewControllerMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMovie.swift; sourceTree = "<group>"; };
+		BDCA09AB2899EB9B00805932 /* ViewControllerThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThing.swift; sourceTree = "<group>"; };
+		BDF884D3289AEC5C006F99B4 /* ViewControllerMeditate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMeditate.swift; sourceTree = "<group>"; };
+		BDF884D5289AF1AF006F99B4 /* ViewControllerFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFriends.swift; sourceTree = "<group>"; };
+		BDF884D7289AFB88006F99B4 /* ViewControllerTreat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTreat.swift; sourceTree = "<group>"; };
+		BDF884D9289B14C4006F99B4 /* ViewControllerMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMusic.swift; sourceTree = "<group>"; };
+		BDF884DB289B1920006F99B4 /* ViewControllerWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWrite.swift; sourceTree = "<group>"; };
+		BDF884DD289B1EF6006F99B4 /* ViewControllerPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPuzzle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,13 @@
 		BDCA096A2899CDB200805932 = {
 			isa = PBXGroup;
 			children = (
+				BDF884DD289B1EF6006F99B4 /* ViewControllerPuzzle.swift */,
+				BDF884DB289B1920006F99B4 /* ViewControllerWrite.swift */,
+				BDF884D9289B14C4006F99B4 /* ViewControllerMusic.swift */,
+				BDF884D7289AFB88006F99B4 /* ViewControllerTreat.swift */,
+				BDF884D5289AF1AF006F99B4 /* ViewControllerFriends.swift */,
+				BDF884D3289AEC5C006F99B4 /* ViewControllerMeditate.swift */,
+				BDCA09AB2899EB9B00805932 /* ViewControllerThing.swift */,
 				BDCA09752899CDB200805932 /* bingoPrac */,
 				BDCA098F2899CDB300805932 /* bingoPracTests */,
 				BDCA09992899CDB300805932 /* bingoPracUITests */,
@@ -105,6 +128,7 @@
 				BDCA09782899CDB200805932 /* SceneDelegate.swift */,
 				BDCA097A2899CDB200805932 /* ViewController.swift */,
 				BDCA097C2899CDB200805932 /* Main.storyboard */,
+				BDCA09A92899E38100805932 /* ViewControllerMovie.swift */,
 				BDCA09822899CDB300805932 /* Assets.xcassets */,
 				BDCA09842899CDB300805932 /* LaunchScreen.storyboard */,
 				BDCA09872899CDB300805932 /* Info.plist */,
@@ -261,10 +285,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF884D6289AF1AF006F99B4 /* ViewControllerFriends.swift in Sources */,
+				BDCA09AA2899E38100805932 /* ViewControllerMovie.swift in Sources */,
+				BDF884DA289B14C4006F99B4 /* ViewControllerMusic.swift in Sources */,
 				BDCA097B2899CDB200805932 /* ViewController.swift in Sources */,
+				BDF884DC289B1920006F99B4 /* ViewControllerWrite.swift in Sources */,
+				BDF884D8289AFB88006F99B4 /* ViewControllerTreat.swift in Sources */,
 				BDCA09772899CDB200805932 /* AppDelegate.swift in Sources */,
 				BDCA09792899CDB200805932 /* SceneDelegate.swift in Sources */,
 				BDCA09812899CDB200805932 /* bingoPrac.xcdatamodeld in Sources */,
+				BDCA09AC2899EB9B00805932 /* ViewControllerThing.swift in Sources */,
+				BDF884DE289B1EF6006F99B4 /* ViewControllerPuzzle.swift in Sources */,
+				BDF884D4289AEC5C006F99B4 /* ViewControllerMeditate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
